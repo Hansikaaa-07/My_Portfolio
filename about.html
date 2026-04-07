@@ -1,0 +1,144 @@
+<!-- <!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Hansika</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+    <!-- Navbar (Same as index) -->
+    <!-- <nav class="navbar navbar-expand-lg sticky-top shadow-sm glass-nav">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-primary" href="index.html">HANSIKA</a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="qualifications.html">Qualifications</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Expertise</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="skills.html">Skills</a></li>
+                            <li><a class="dropdown-item" href="certifications.html">Certifications</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5 py-5">
+        <div class="row align-items-center">
+            <div class="col-lg-5" data-aos="fade-right">
+                <img src="assets/prof.jpeg" class="img-fluid rounded-4 shadow-lg" alt="Hansika">
+            </div>
+            <div class="col-lg-7 mt-4 mt-lg-0" data-aos="fade-left">
+                <h2 class="display-4 fw-bold mb-4">Hello, I'm <span class="text-primary">Hansika</span></h2>
+                <p class="fs-5 opacity-75">I am currently pursuing my B.Tech at Vasavi College of Engineering. My primary focus is on Coding and web development. I enjoy taking on new challenges and continuously learning about the latest technologies in software development and networking.</p>
+                <div class="accordion mt-4" id="visionAcc">
+                    <div class="accordion-item glass-card border-0 mb-2">
+                        <h2 class="accordion-header"><button class="accordion-button rounded-3" data-bs-toggle="collapse" data-bs-target="#v1">Professional Vision</button></h2>
+                        <div id="v1" class="accordion-collapse collapse show"><div class="accordion-body">To innovate in the tech space by building scalable software solutions.</div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    Footer & Scripts
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html> 
+--> 
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Hansika</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg sticky-top glass-nav">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-gradient" href="index.html">HANSIKA</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="qualifications.html">Qualifications</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Expertise</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="skills.html">Skills</a></li>
+                            <li><a class="dropdown-item" href="certifications.html">Certifications</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <!-- THE TOGGLE BUTTON - MUST BE IN EVERY FILE -->
+<li class="nav-item ms-lg-3">
+    <button class="btn btn-link nav-link shadow-none" id="themeToggle" type="button">
+        <i class="bi bi-moon-stars-fill" id="themeIcon"></i>
+    </button>
+</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5 py-5">
+        <div class="row align-items-center">
+            <div class="col-lg-5 text-center mb-5 mb-lg-0" data-aos="fade-right">
+                <!-- CIRCULAR IMAGE -->
+                <img src="assets/prof.jpeg" class="profile-img-circle" alt="Hansika">
+            </div>
+            <div class="col-lg-7" data-aos="fade-left">
+                <h2 class="display-4 fw-bold mb-4">Hello, I'm <span class="text-gradient">Hansika</span></h2>
+                <div class="glass-card p-4">
+                    <p class="fs-5 opacity-75">I am an Engineering Student at Vasavi college of Engineering. I specialize in Software Development and Computer Networking. I am passionate about learning and applying logic to solve real-world problems.</p>
+                    <div class="accordion mt-4 border-0 shadow-none" id="accAbout">
+                        <div class="accordion-item bg-transparent border-0">
+                            <h2 class="accordion-header"><button class="accordion-button rounded-3 text-primary bg-transparent fw-bold shadow-none" data-bs-toggle="collapse" data-bs-target="#c1">My Core Values</button></h2>
+                            <div id="c1" class="accordion-collapse collapse show"><div class="accordion-body opacity-75">Curious and exploratory
+Creative thinker<br>
+Detail oriented<br>
+Well organized approach to tasks<br>
+Good collaboration mindset</div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="py-4 bg-dark text-white text-center mt-auto">
+        <div class="d-flex justify-content-center gap-4 fs-3 mb-3">
+            <a href="https://github.com/hansikaaa-07" class="text-white hover-blue"><i class="bi bi-github"></i></a>
+            <a href="https://www.linkedin.com/in/hansika-keerthi/" class="text-white hover-blue"><i class="bi bi-linkedin"></i></a>
+            <!-- EMAIL ICON -->
+<a href="mailto:milly.hansika@gmail.com" class="text-white hover-blue">
+    <i class="bi bi-envelope-at-fill"></i>
+</a>
+        </div>
+        <p class="small opacity-75 mb-0">&copy; 2026 Hansika | Built with Passion</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

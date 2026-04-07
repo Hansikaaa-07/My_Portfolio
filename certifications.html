@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certifications | Hansika</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+    <!-- Navbar (Same as index) -->
+    <nav class="navbar navbar-expand-lg sticky-top shadow-sm glass-nav">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-primary" href="index.html">HANSIKA</a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="qualifications.html">Qualifications</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" data-bs-toggle="dropdown">Expertise</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="skills.html">Skills</a></li>
+                            <li><a class="dropdown-item fw-bold" href="certifications.html">Certifications</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <!-- THE TOGGLE BUTTON - MUST BE IN EVERY FILE -->
+<li class="nav-item ms-lg-3">
+    <button class="btn btn-link nav-link shadow-none" id="themeToggle" type="button">
+        <i class="bi bi-moon-stars-fill" id="themeIcon"></i>
+    </button>
+</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5 py-5">
+        <h2 class="text-center fw-bold mb-5 display-5" data-aos="fade-down">Professional <span class="text-primary">Certificates</span></h2>
+        <div class="row g-4 text-center">
+            <!-- Cert 1 -->
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="glass-card p-4 rounded-4 shadow h-100 d-flex flex-column">
+                    <i class="bi bi-cpu fs-1 text-primary mb-3"></i>
+                    <h5 class="fw-bold">DSA through Python</h5>
+                    <p class="text-secondary small mb-4">NPTEL | IIT Madras</p>
+                    <button class="btn btn-primary btn-sm rounded-pill mt-auto w-100" data-bs-toggle="modal" data-bs-target="#c1">View Certificate</button>
+                </div>
+            </div>
+            <!-- Cert 2 -->
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="glass-card p-4 rounded-4 shadow h-100 d-flex flex-column">
+                    <i class="bi bi-code-square fs-1 text-success mb-3"></i>
+                    <h5 class="fw-bold">Python Essentials 1</h5>
+                    <p class="text-secondary small mb-4">Cisco Networking Academy</p>
+                    <button class="btn btn-primary btn-sm rounded-pill mt-auto w-100" data-bs-toggle="modal" data-bs-target="#c2">View Certificate</button>
+                </div>
+            </div>
+            <!-- Cert 3 -->
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                <div class="glass-card p-4 rounded-4 shadow h-100 d-flex flex-column">
+                    <i class="bi bi-diagram-3 fs-1 text-dark mb-3"></i>
+                    <h5 class="fw-bold">Intro to Networks</h5>
+                    <p class="text-secondary small mb-4">Cisco Networking Academy</p>
+                    <button class="btn btn-primary btn-sm rounded-pill mt-auto w-100" data-bs-toggle="modal" data-bs-target="#c3">View Certificate</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hidden Modals (Add your images in assets/) -->
+    <div class="modal fade" id="c1" tabindex="-1"><div class="modal-dialog modal-lg"><div class="modal-content border-0"><img src="assets/nptel.jpeg" class="img-fluid rounded" onerror="this.src='https://via.placeholder.com/800x600?text=NPTEL+Certificate+Image'"></div></div></div>
+    <div class="modal fade" id="c2" tabindex="-1"><div class="modal-dialog modal-lg"><div class="modal-content border-0"><img src="assets/python.jpeg" class="img-fluid rounded" onerror="this.src='https://via.placeholder.com/800x600?text=Cisco+Python+Certificate+Image'"></div></div></div>
+    <div class="modal fade" id="c3" tabindex="-1"><div class="modal-dialog modal-lg"><div class="modal-content border-0"><img src="assets/ccna.jpeg" class="img-fluid rounded" onerror="this.src='https://via.placeholder.com/800x600?text=Cisco+Intro+to+Networks+Image'"></div></div></div>
+
+    <footer class="py-4 bg-dark text-white text-center mt-auto">
+        <div class="d-flex justify-content-center gap-4 fs-3 mb-3">
+            <a href="https://github.com/hansikaaa-07" class="text-white hover-blue"><i class="bi bi-github"></i></a>
+            <a href="https://www.linkedin.com/in/hansika-keerthi/" class="text-white hover-blue"><i class="bi bi-linkedin"></i></a>
+            <!-- EMAIL ICON -->
+<a href="mailto:milly.hansika@gmail.com" class="text-white hover-blue">
+    <i class="bi bi-envelope-at-fill"></i>
+</a>
+        </div>
+        <p class="small opacity-75 mb-0">&copy; 2026 Hansika | Built with Passion</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
